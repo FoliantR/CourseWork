@@ -1,0 +1,35 @@
+﻿<Window x:Class="CursWorkProj.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CursWorkProj"
+        mc:Ignorable="d"
+        Title="Ритуальное агенство 'Эсквилин'" Height="561" Width="960">
+    <Grid x:Name="grd" Margin="0,0,0,-6">
+
+        <Grid.Background >
+            <ImageBrush ImageSource="C:\Курсовая работа\CursWorkProj\images\background2.jpg"/>
+        </Grid.Background>
+
+
+        <Button Content="Записать нового клиента" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Height="45" Width="256" Click="Button_AddingClient" FontWeight="Normal" FontSize="14"/>
+        <Button Content="Редактировать клиента" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Height="45" Width="256"  Click="Button_EditCustomerClick" FontSize="14"/>
+        <Button Content="Удалить клиента" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Height="45" Width="256" Click="Button_DeletingClient" FontSize="14"/>
+        <Button Content="Посмотреть всех клиентов" HorizontalAlignment="Left" Margin="680,15,0,0" VerticalAlignment="Top" Height="45" Width="256" Click="Button_SelectCustomersClick" FontSize="14"/>
+        <Button Content="Добавить новый могильный камень" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Height="45" Width="256" Click="Button_AddingGrave" FontSize="14"/>
+        <Button Content="Добавить новое кладбище" HorizontalAlignment="Left" Margin="271,15,0,0" VerticalAlignment="Top" Height="45" Width="256" Click="Button_AddingCemetery" FontSize="14"/>
+        <Button Content="Добавить новый материал для гроба" HorizontalAlignment="Left" Margin="271,65,0,0" VerticalAlignment="Top" Height="45" Width="256" Click="Button_AddingCoffin" FontSize="14"/>
+        <Button Content="Организовать похоронную церемонию" HorizontalAlignment="Left" Margin="271,115,0,0" VerticalAlignment="Top" Height="95" Width="256" Click="Button_CreateProcession" FontSize="13"/>
+        <Button Content="Актуальные заказы" HorizontalAlignment="Left" Margin="680,65,0,0" VerticalAlignment="Top" Height="45" Width="256" Click="Button_SelectFuneralProcessionClick" FontSize="14"/>
+
+        <Label Content="Полученные данные:" HorizontalAlignment="Left" Margin="10,247,0,0" VerticalAlignment="Top" Foreground="#FF00FF10" Height="45" Width="461" FontSize="24" />
+        <DataGrid x:Name="dataIDGrid" Margin="10,292,24,0" Height="221" VerticalAlignment="Top"/>
+        <Button Content="Заказы на сегодня" HorizontalAlignment="Left" Margin="680,115,0,0" VerticalAlignment="Top" Height="45" Width="256" Click="Button_SelectTodayProcessionClick" FontSize="14"/>
+        <Button Content="Все заказы" HorizontalAlignment="Left" Margin="680,165,0,0" VerticalAlignment="Top" Height="45" Width="256" Click="Button_SelectAllProcessionClick" FontSize="14"/>
+
+
+
+    </Grid>
+</Window>
+

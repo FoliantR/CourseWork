@@ -1,0 +1,6 @@
+C:\Курсовая работа\CursWork\obj\Debug\CursWork.csproj.AssemblyReference.cache
+C:\Курсовая работа\CursWork\obj\Debug\CursWork.csproj.SuggestedBindingRedirects.cache
+C:\Курсовая работа\CursWork\obj\Debug\MainWindow.g.cs
+C:\Курсовая работа\CursWork\obj\Debug\App.g.cs
+C:\Курсовая работа\CursWork\obj\Debug\CursWork_MarkupCompile.cache
+C:\Курсовая работа\CursWork\obj\Debug\CursWork_MarkupCompile.lref
